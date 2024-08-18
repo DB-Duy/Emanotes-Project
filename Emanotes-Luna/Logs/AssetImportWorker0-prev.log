@@ -1,0 +1,450 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32627 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\UnityEditors\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Emanotes-Luna/Emanotes-Luna
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64592
+Successfully changed project path to: E:/Emanotes-Luna/Emanotes-Luna
+E:/Emanotes-Luna/Emanotes-Luna
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 71.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path E:/UnityEditors/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Emanotes-Luna/Emanotes-Luna/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10053 MB
+    Driver:   31.0.15.5244
+Initialize mono
+Mono path[0] = 'E:/UnityEditors/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityEditors/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/UnityEditors/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UnityEditors/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/UnityEditors/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001051 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 68.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.395 seconds
+Domain Reload Profiling:
+	ReloadAssembly (395ms)
+		BeginReloadAssembly (41ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (296ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (61ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (187ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (57ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003650 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Emanotes-Luna\Emanotes-Luna\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Emanotes-Luna\Emanotes-Luna\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 65.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Domain Reload Profiling:
+	ReloadAssembly (975ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (740ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (441ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5304 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (0.9 MB). Loaded Objects now: 5798.
+Memory consumption went from 214.1 MB to 213.2 MB.
+Total: 3.140900 ms (FindLiveObjects: 0.272400 ms CreateObjectMapping: 0.181500 ms MarkObjects: 2.517200 ms  DeleteObjects: 0.168900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20848.935068 seconds.
+  path: Assets/Resources/magic-tiles-3/Atlas/MagicTiles.spriteatlasv2
+  artifactKey: Guid(e5ec4c154a8ad014291cc5e761f7945b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/magic-tiles-3/Atlas/MagicTiles.spriteatlasv2 using Guid(e5ec4c154a8ad014291cc5e761f7945b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab6fb00c69e7d6f8f4ab05337f79a8d') in 0.061076 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003775 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Emanotes-Luna\Emanotes-Luna\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Emanotes-Luna\Emanotes-Luna\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Domain Reload Profiling:
+	ReloadAssembly (756ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Release of invalid GC handle. The handle is from a previous domain. The release operation is skipped.
+Unloading 5163 Unused Serialized files (Serialized files now loaded: 0)
+Release of invalid GC handle native callstack: 
+0x00007ff721d2368d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff721d2a369 (Unity) StackWalker::ShowCallstack
+0x00007ff722c9b683 (Unity) GetStacktrace
+0x00007ff721c2e07d (Unity) ScriptingGCHandle::ReleaseAndClear
+0x00007ff7221c1dfc (Unity) UploadHandlerRaw::`vector deleting destructor'
+0x00007ff7221c291d (Unity) UploadHandler::Release
+0x00007ff7221baf0d (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::~UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>
+0x00007ff7221bb240 (Unity) UnityWebRequest::`vector deleting destructor'
+0x00007ff7210ab9c7 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Release
+0x00007ff7221bc955 (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff7221bcb31 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff7218a72aa (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff72194b27f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff723049765 (Unity) <lambda_f586749871dc2f4b36dca2d21a52c840>::operator()
+0x00007ff723089c82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff723075b6e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7230777d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff72308806e (Unity) IOService::Run
+0x00007ff72305ac7f (Unity) AssetImportWorkerClient::Run
+0x00007ff723024db3 (Unity) RunAssetImportWorkerClientV2
+0x00007ff723024e3b (Unity) RunAssetImporterV2
+0x00007ff722846158 (Unity) Application::InitializeProject
+0x00007ff722ca5dc8 (Unity) WinMain
+0x00007ff72404533e (Unity) __scrt_common_main_seh
+0x00007fff7717257d (KERNEL32) BaseThreadInitThunk
+0x00007fff7870af28 (ntdll) RtlUserThreadStart
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 5804.
+Memory consumption went from 204.6 MB to 203.9 MB.
+Total: 3.013200 ms (FindLiveObjects: 0.237700 ms CreateObjectMapping: 0.132500 ms MarkObjects: 2.459600 ms  DeleteObjects: 0.182500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004279 seconds.
+Begin MonoManager ReloadAssembly
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+Symbol file LoadedFromMemory doesn't match image E:\Emanotes-Luna\Emanotes-Luna\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Emanotes-Luna\Emanotes-Luna\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (782ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (638ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Release of invalid GC handle. The handle is from a previous domain. The release operation is skipped.
+Release of invalid GC handle native callstack: 
+0x00007ff721d2368d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff721d2a369 (Unity) StackWalker::ShowCallstack
+0x00007ff722c9b683 (Unity) GetStacktrace
+0x00007ff721c2e07d (Unity) ScriptingGCHandle::ReleaseAndClear
+0x00007ff7221c1dfc (Unity) UploadHandlerRaw::`vector deleting destructor'
+0x00007ff7221c291d (Unity) UploadHandler::Release
+0x00007ff7221baf0d (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::~UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>
+0x00007ff7221bb240 (Unity) UnityWebRequest::`vector deleting destructor'
+0x00007ff7210ab9c7 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Release
+0x00007ff7221bc955 (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff7221bcb31 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff7218a72aa (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff72194b27f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff723049765 (Unity) <lambda_f586749871dc2f4b36dca2d21a52c840>::operator()
+0x00007ff723089c82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff723075b6e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7230777d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff72308806e (Unity) IOService::Run
+0x00007ff72305ac7f (Unity) AssetImportWorkerClient::Run
+0x00007ff723024db3 (Unity) RunAssetImportWorkerClientV2
+0x00007ff723024e3b (Unity) RunAssetImporterV2
+0x00007ff722846158 (Unity) Application::InitializeProject
+0x00007ff722ca5dc8 (Unity) WinMain
+0x00007ff72404533e (Unity) __scrt_common_main_seh
+0x00007fff7717257d (KERNEL32) BaseThreadInitThunk
+0x00007fff7870af28 (ntdll) RtlUserThreadStart
+Unloading 5163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 5809.
+Memory consumption went from 204.7 MB to 204.1 MB.
+Total: 3.300800 ms (FindLiveObjects: 0.227100 ms CreateObjectMapping: 0.135900 ms MarkObjects: 2.756200 ms  DeleteObjects: 0.180900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1279.644773 seconds.
+  path: Assets/EmanotesGames/MagicTiles/Prefabs/TileHold.prefab
+  artifactKey: Guid(8f3edcbbb9f24034cb6a8c34a77b28b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmanotesGames/MagicTiles/Prefabs/TileHold.prefab using Guid(8f3edcbbb9f24034cb6a8c34a77b28b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7db5f17c5b6a5b6008ab17ec04dba7') in 0.149825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.512384 seconds.
+  path: Assets/EmanotesGames/MagicTiles/Prefabs/TileHoldLong.prefab
+  artifactKey: Guid(0c1f2560ffb19de4e959f69928e610ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmanotesGames/MagicTiles/Prefabs/TileHoldLong.prefab using Guid(0c1f2560ffb19de4e959f69928e610ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f075f8d378ed50dd6da985d86da86099') in 0.012547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.760113 seconds.
+  path: Assets/EmanotesGames/MagicTiles/Prefabs/TileSingle.prefab
+  artifactKey: Guid(cfd5207d60eeccc419069241a2ae2e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmanotesGames/MagicTiles/Prefabs/TileSingle.prefab using Guid(cfd5207d60eeccc419069241a2ae2e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7a491b645e0cff6464157bcb20104c') in 0.012424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.232971 seconds.
+  path: Assets/Resources/game-music-night-battle
+  artifactKey: Guid(ec50f57011a053044995c96c35c5b96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/game-music-night-battle using Guid(ec50f57011a053044995c96c35c5b96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6399a78c0f4ba576eab383b16f4a0eda') in 0.006484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.733269 seconds.
+  path: Assets/EmanotesGames/NightBattle
+  artifactKey: Guid(118c278f6f85a3646864d24e574aa0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmanotesGames/NightBattle using Guid(118c278f6f85a3646864d24e574aa0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b33bbcf94e72302a9c4c1ef2fcb4ac') in 0.004724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.842365 seconds.
+  path: Assets/EmanotesGames/NightBattle/Battle.unity
+  artifactKey: Guid(792de47c2a864fd4290799e4bf065720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmanotesGames/NightBattle/Battle.unity using Guid(792de47c2a864fd4290799e4bf065720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42594fb083ec64e002ed7ce1c364e512') in 0.004874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.636702 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_White_Mat.mat
+  artifactKey: Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_White_Mat.mat using Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a32b9be629c7514f842df5dbde1530d') in 0.916949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExampleAssets/Materials/OBS_Mat.mat
+  artifactKey: Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/OBS_Mat.mat using Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f899fb37038be15a4c5f960c7e8064b3') in 0.781051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ExampleAssets/Materials/DryWall_Mat.mat
+  artifactKey: Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/DryWall_Mat.mat using Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d6a3905d5a306005a6a186163e85ed') in 0.017931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat
+  artifactKey: Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat using Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af97dd29637c012ffe8e8f56dce6e906') in 0.794047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ExampleAssets/Models/jigsaw_low.fbx
+  artifactKey: Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/jigsaw_low.fbx using Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed40e7eb845ce3ffaed622fec5df0f7') in 0.949944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat
+  artifactKey: Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat using Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bece6295ac92d40aadf9d234845b97') in 0.015351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ExampleAssets/Materials/HardHat_Mat.mat
+  artifactKey: Guid(e93789f0a5d66df4a81613935579642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/HardHat_Mat.mat using Guid(e93789f0a5d66df4a81613935579642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38db51dc2a1e08c8877fb4fa2d0b8965') in 0.016008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ExampleAssets/Materials/Stud_Mat.mat
+  artifactKey: Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Stud_Mat.mat using Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01564a2e47f16598116c1b2ce96687b4') in 0.015349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EmanotesGames/Materials/ProgressbarFX Stars.mat
+  artifactKey: Guid(ecf895ea49b358342947a39b5d6bd29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmanotesGames/Materials/ProgressbarFX Stars.mat using Guid(ecf895ea49b358342947a39b5d6bd29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3950971d4cf17889d1a4d6ad6b14d48c') in 0.016896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ExampleAssets/Materials/PaintBrush_Mat.mat
+  artifactKey: Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintBrush_Mat.mat using Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419030a90acea53f0d64786e71a2f85f') in 0.016632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat
+  artifactKey: Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat using Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420c8e2cccb67285b7f607e8c555764a') in 0.750191 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

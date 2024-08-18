@@ -1,0 +1,32 @@
+script( data-startup-only )
+    include ../js/startup.js
+
+script( data-startup-only ).
+    if ( document.location.search.toLowerCase().indexOf( 'spector' ) >= 0 ) {
+        var spectorScript = document.createElement( 'script' );
+        spectorScript.setAttribute( 'src', 'https://spectorcdn.babylonjs.com/spector.bundle.js' );
+        document.head.appendChild( spectorScript );
+
+        spectorScript.addEventListener( 'load', () => {
+            window.spector = new SPECTOR.Spector();
+            window.spector.spyCanvases();
+            window.spector.displayUI();
+        } );
+    };
+
+    window.addEventListener( 'luna:started', function() {
+        // https://github.com/mrdoob/stats.js/
+        if ( document.location.search.indexOf( 'fps' ) >= 0 ) {
+            const script = document.createElement( 'script' );
+            script.onload = function() {
+                const stats = new Stats();
+                document.body.appendChild( stats.dom );
+                window.app.app.events.on( 'postrender', function loop() {
+                    stats.update();
+                }, this );
+            };
+
+            script.src = 'https://mrdoob.github.io/stats.js/build/stats.min.js';
+            document.head.appendChild( script );
+        }
+    } );
